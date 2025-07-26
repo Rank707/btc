@@ -21,8 +21,8 @@ const io = new Server(httpServer, {
 app.use(cors());
 app.use(express.json());
 
-const API_KEY = process.env.GOOGLE_API_KEY;
-const VALID_CODES = process.env.VALID_CODES || "";
+const API_KEY = "AIzaSyAtPZnhmQYj0imcehXmuJY2MUOz_qA86Ys";
+const VALID_CODES = "WY98H8";
 
 if (!API_KEY) {
   console.error("❌ GEMINI_API_KEY not found in .env");
